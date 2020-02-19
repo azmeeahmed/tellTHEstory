@@ -1,0 +1,113 @@
+/* -----------------------------CONTACT SECTION----------------------------------- */
+#map_canvas {
+    height: 400px;
+}
+
+.box-map {
+    line-height: 1;
+    padding: 20px 0 20px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+form input,
+form textarea {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    color: #503825;
+    line-height: 52px;
+    width: 100%;
+    font-size: 13px;
+    background: #fff;
+    padding-right: 10px;
+    padding-left: 25px;
+}
+
+#MyContactForm {
+    text-align: left;
+}
+
+#MyContactForm p span {
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+
+#MyContactForm p label {
+    cursor: text;
+    display: block;
+    margin: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #999;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+}
+
+#form-wrapper #MyContactForm .error {
+    bottom: 3px;
+    color: #FF0000;
+    font-family: inherit;
+
+    /* font-size: 12px */
+    /* font-weight: normal */
+    /* left: auto */
+    /* font-style: italic */
+    letter-spacing: 0;
+    position: absolute;
+    right: 20px;
+    text-transform: capitalize;
+    width: auto;
+}
+
+.contact-btn {
+    color: #ffffff;
+    display: inline-block;
+
+    /* font-family: oswald */
+    letter-spacing: 3px;
+    text-decoration: none!important;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    background-color: #919191;
+}
+
+.contact-btn:hover {
+    color: #fff;
+    background-color: #276a89;
+}
+
+#MyContactForm p {
+    position: relative;
+}
+
+.response h3 {
+    letter-spacing: 2px;
+    margin: 10px 0 25px;
+    text-transform: uppercase;
+    color: #469d53;
+}

@@ -1,0 +1,247 @@
+body {
+    font-family: "Open Sans";
+    line-height: 53px;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 34px;
+    padding-bottom: 36px;
+}
+
+
+.tTs-nav {
+    letter-spacing: 3px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.tTs-body-copy {
+    font-family: Open Sans;
+    font-size: 15px;
+    line-height: 53px;
+    color: #1c3544;
+    margin-bottom: 22px;
+}
+
+.tTs-headline {
+    margin-left: -90px;
+    width: 452px;
+    margin-top: -10px;
+    margin-bottom: -42px;
+}
+
+.tTs-logo {
+    vertical-align: middle;
+    width: 228px;
+    margin-left: 23px;
+}
+
+.tTs-headshot {
+    float: left;
+    margin-right: 15px;
+    width: 181px;
+    margin-top: 0px;
+}
+
+.tTs-section-padding {
+    padding-top: 44px;
+}
+
+.tTs-flex-parent {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.tTs-flex-child {
+    margin: auto;
+}
+
+.tTs-top-banner {
+    display: flex;
+    background-image: url('tTs-paint-banner4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tTs-form {
+    padding-bottom: 14px;
+    margin-bottom: 0;
+}
+
+.tTS-copyright {
+    font-size: 12px;
+}
+
+.tTs-link {
+    color: #206691;
+}
+
+.tTs-link:hover,
+.tTs-link:active {
+    background-color: #206691;
+    color: white;
+    text-decoration: none;
+}
+
+.header_banner {
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('tTs-paint-banner3.jpg');
+    position: relative;
+}
+
+.nav_bg {
+    width: 100%;
+    height: 64px;
+    background: url('nav-bkgd.jpg') no-repeat;
+    background-size: cover;
+}
+
+/* .nav_bg .navbar .nav-link {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    transition: 0.3s ease;
+}
+
+.nav_bg .navbar .nav-link:hover {
+    color: #206691;
+}
+
+.nav_bg .navbar .nav-link.active {
+    color: #206691;
+} */
+img.bar_long_1 {
+    vertical-align: top;
+}
+
+.collegiate,
+.thought,
+.conferences,
+.contact {
+    margin-left: -10% !important;
+}
+
+.carousel-inner .carousel-item img {
+    height: 100% !important;
+}
+
+.carousel-inner .carousel-item {
+  height: 48vw!important;
+}
+.carousel-indicators{
+    bottom:-5px!important;
+}
+
+.footer_books {
+    /* height: 90vh; */
+}
+
+body:not(.modal-open){
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+  }
+.sticky-top:not(.modal-open){
+padding-right: 0px !important;
+margin-right: 0px !important;
+}
+.navbar-toggler:not(.modal-open){
+    margin-right: 21px !important;
+}
+
+
+
+
+
+
+/* ******************************** Media query start here **************************** */
+/* ******************************** Media query start here **************************** */
+/* ******************************** Media query start here **************************** */
+@media (max-width:991px) {
+    .tTs-nav-small {
+        background-color: rgba(0, 0, 0, 0.86);
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+@media (max-width:615px) {
+    .carousel-inner .carousel-item {
+        height: 47.5vw!important;
+    }
+    .carousel-indicators{
+        bottom:-8px!important;
+    }
+}
+
+@media (max-width:436px) {
+    .carousel-inner .carousel-item {
+        height: 47vw!important;
+    }
+    .carousel-indicators{
+        bottom:-10px!important;
+    }
+}
+
+@media (max-width:399px) {
+    .tTs-small-screen {
+        max-width: 168px;
+    }
+
+    .tTs-headshot {
+        max-width: 110px;
+    }
+
+    .tTs-body-copy {
+        line-height: 41px;
+    }
+
+    .tTs-section-padding {
+        margin-top: 0;
+        margin-bottom: -69px;
+        padding-bottom: 57px;
+    }
+
+    .tTs-headline {
+        max-width: 303px;
+        padding-left: 40px;
+        margin-top: -62px;
+        padding-bottom: 11px;
+    }
+
+    .navbar-brand {
+    }
+
+    .nav_bg {
+        height: 55px;
+    }
+}
+
+.tTs-burger {
+    margin-right: 40px;
+}
+
+@media (max-width:399px) {
+    .tTs-burger {
+        margin-right: 21px;
+    }
+}
+@media (max-width:341px) {
+    .carousel-inner .carousel-item {
+        height: 46.5vw!important;
+    }
+    .carousel-indicators{
+        bottom:-12px!important;
+    }
+}
+@media (max-width:291px) {
+    .carousel-inner .carousel-item {
+        height: 46vw!important;
+    }
+    .carousel-indicators{
+        bottom:-14px!important;
+    }
+}
