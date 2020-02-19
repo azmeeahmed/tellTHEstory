@@ -126,7 +126,8 @@ img.bar_long_1 {
     margin-left: -10% !important;
 }
 .custom_height_thought_img img{
-    overflow:hidden;
+    max-height:500px;
+    min-height:300px;
 }
 .thought_headline_img{
     width:452px;
