@@ -60,7 +60,7 @@ p {
 
 .tTs-top-banner {
     display: flex;
-    background-image: url('tTs-paint-banner4.jpg');
+    background-image: url('./tTs-paint-banner4.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
