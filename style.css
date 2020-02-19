@@ -130,6 +130,7 @@ img.bar_long_1 {
 }
 .thought_headline_img{
     width:452px;
+    margin-left:-90px;
 }
 .carousel-inner .carousel-item img {
     height: 100% !important;
@@ -216,6 +217,9 @@ margin-right: 0px !important;
         margin-top: -62px;
         padding-bottom: 11px;
     }
+    .thought_headline_img{
+     max-width:303px;
+}
 
     .navbar-brand {
     }
