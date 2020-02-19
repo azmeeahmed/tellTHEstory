@@ -86,13 +86,13 @@ p {
     text-decoration: none;
 }
 
-.header_banner {
+/*.header_banner {
     height: 100vh;
     background-size: cover;
     background-position: center top;
     background-image: url('tTs-paint-banner3.jpg');
     position: relative;
-}
+}*/
 
 .nav_bg {
     width: 100%;
