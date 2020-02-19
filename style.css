@@ -125,6 +125,8 @@ img.bar_long_1 {
 .contact {
     margin-left: -10% !important;
 }
+.custom_height_thought_img{
+    height:47.5vh;
 
 .carousel-inner .carousel-item img {
     height: 100% !important;
