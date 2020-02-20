@@ -218,6 +218,9 @@ margin-right: 0px !important;
     .nav_bg {
         height: 55px;
     }
+    .customMargin{
+        margin-bottom: 2em!important;
+    }
 }
 
 .tTs-burger {
